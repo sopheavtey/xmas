@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(0, 128, 0, 0.598);
+}
+div.banner{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.banner_content-title{
+    text-transform: capitalize;
+    
+}
+.product_card{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 4px solid white;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 2px pink;
+}
+.product_wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+}
+img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+.contact_title{
+    color: blue;
+
+}
+.contact{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+input{
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    background-color: red;
+}
+.footer{
+    padding: 20px;
+    background-color: green;
+    text-align: center;
+    color: white;
+}
